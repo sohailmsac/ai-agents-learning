@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 
 
-load_dotenv('C:/Users/SoKhan/Documents/GitHub/Project-Team/.env')
+load_dotenv('../../.env')
 
 llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0)
 
